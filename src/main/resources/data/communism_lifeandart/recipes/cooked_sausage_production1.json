@@ -1,0 +1,12 @@
+{
+  "group": "sausage",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "communism_lifeandart:raw_sausage"
+  },
+  "result": {
+    "item": "communism_lifeandart:cooked_sausage"
+  }
+}

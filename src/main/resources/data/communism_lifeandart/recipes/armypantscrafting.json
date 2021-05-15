@@ -1,0 +1,36 @@
+{
+  "group": "communism_lifeandart",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_wool"
+    },
+    "1": {
+      "item": "minecraft:leather_leggings"
+    },
+    "2": {
+      "item": "minecraft:black_wool"
+    },
+    "3": {
+      "item": "minecraft:black_wool"
+    },
+    "5": {
+      "item": "minecraft:black_wool"
+    },
+    "6": {
+      "item": "minecraft:black_wool"
+    },
+    "8": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "communism_lifeandart:armypants_leggings",
+    "count": 1
+  }
+}

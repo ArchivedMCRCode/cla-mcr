@@ -1,0 +1,32 @@
+{
+  "group": "communism_lifeandart",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:carrot"
+    },
+    "1": {
+      "item": "minecraft:milk_bucket"
+    },
+    "2": {
+      "item": "minecraft:carrot"
+    },
+    "3": {
+      "item": "minecraft:bowl"
+    },
+    "4": {
+      "item": "minecraft:cooked_beef"
+    },
+    "5": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "communism_lifeandart:okroshka",
+    "count": 2
+  }
+}

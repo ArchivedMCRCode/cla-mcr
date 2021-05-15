@@ -1,0 +1,1839 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "EmptyTin",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "empty_tin",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "CommunismLifeAndArt",
+      "type": "tab",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "communism_life_and_art"
+    },
+    {
+      "name": "TinnedCaviarWhenEaten",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinned_caviar_when_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "TinnedCaviar",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinned_caviar",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "CaviarProduction",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "caviar_production",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "TinnedSalmonCaviarWhenEaten",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinned_salmon_caviar_when_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "TinnedSalmonCaviar",
+      "type": "food",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinned_salmon_caviar",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "TinnedSalmonCaviarProduction",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tinned_salmon_caviar_production",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "TinCrafting",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tin_crafting",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "RyeBreadWhenEaten",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rye_bread_when_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "RyeBread",
+      "type": "food",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rye_bread",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "RyeBreadProduction",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rye_bread_production",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "BeverageCan",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beverage_can",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "CanProduction",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "can_production",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "KvassWhenDrunk",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kvass_when_drunk",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "Kvass",
+      "type": "food",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kvass",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "KvassProduction",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kvass_production",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "KvassProductionAlt",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kvass_production_alt",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "RawSausageWhenEaten",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_sausage_when_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "RawSausage",
+      "type": "food",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_sausage",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "CookedSausageWhenEaten",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_sausage_when_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "CookedSausage",
+      "type": "food",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_sausage",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "RawSausageProduction",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "raw_sausage_production",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "CookedSausageProduction",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_sausage_production",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "CookedSausageProductionAlt",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cooked_sausage_production_alt",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "RussianSoupWhenDrunk",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "russian_soup_when_drunk",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "RussianSoup",
+      "type": "food",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "russian_soup",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "RussianSoupProduction",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "russian_soup_production",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "RussianSoupProductionAlt",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "russian_soup_production_alt",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "VodkaWhenDrunk",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vodka_when_drunk",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "Vodka",
+      "type": "food",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vodka",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "VodkaProduction",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vodka_production",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "SausageMould",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sausage_mould",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "MouldCrafting",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mould_crafting",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "OkroshkaWhenDrunk",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "okroshka_when_drunk",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "Okroshka",
+      "type": "food",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "okroshka",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "OkroshkaProduction1",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "okroshka_production_1",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "GainSausage",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gain_sausage",
+      "path": "~/Acheivements"
+    },
+    {
+      "name": "Poster1",
+      "type": "painting",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poster_1",
+      "path": "~/Posters"
+    },
+    {
+      "name": "Poster1Small",
+      "type": "painting",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poster_1_small",
+      "path": "~/Posters"
+    },
+    {
+      "name": "Poster2",
+      "type": "painting",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poster_2",
+      "path": "~/Posters"
+    },
+    {
+      "name": "Poster2Small",
+      "type": "painting",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poster_2_small",
+      "path": "~/Posters"
+    },
+    {
+      "name": "Poster3",
+      "type": "painting",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poster_3",
+      "path": "~/Posters"
+    },
+    {
+      "name": "Poster3Small",
+      "type": "painting",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poster_3_small",
+      "path": "~/Posters"
+    },
+    {
+      "name": "Poster4",
+      "type": "painting",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poster_4",
+      "path": "~/Posters"
+    },
+    {
+      "name": "Poster4Small",
+      "type": "painting",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poster_4_small",
+      "path": "~/Posters"
+    },
+    {
+      "name": "Poster5",
+      "type": "painting",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poster_5",
+      "path": "~/Posters"
+    },
+    {
+      "name": "Poster5Small",
+      "type": "painting",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poster_5_small",
+      "path": "~/Posters"
+    },
+    {
+      "name": "Poster6",
+      "type": "painting",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poster_6",
+      "path": "~/Posters"
+    },
+    {
+      "name": "Poster6Small",
+      "type": "painting",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "poster_6_small",
+      "path": "~/Posters"
+    },
+    {
+      "name": "Tovarishchvodka",
+      "type": "achievement",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tovarishchvodka",
+      "path": "~/Acheivements"
+    },
+    {
+      "name": "CCCPAnthem",
+      "type": "musicdisc",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cccp_anthem",
+      "path": "~/Discs"
+    },
+    {
+      "name": "AnEveningOutsideMoscow",
+      "type": "musicdisc",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "an_evening_outside_moscow",
+      "path": "~/Discs"
+    },
+    {
+      "name": "InternationaleCN",
+      "type": "musicdisc",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "internationale_cn",
+      "path": "~/Discs"
+    },
+    {
+      "name": "InternationaleCCCP",
+      "type": "musicdisc",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "internationale_cccp",
+      "path": "~/Discs"
+    },
+    {
+      "name": "TroikaGalop",
+      "type": "musicdisc",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "troika_galop",
+      "path": "~/Discs"
+    },
+    {
+      "name": "Katyusha",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "katyusha",
+      "path": "~/Discs"
+    },
+    {
+      "name": "WeAreYourFirmSuccessorTheCYL",
+      "type": "musicdisc",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "we_are_your_firm_successor_the_cyl",
+      "path": "~/Discs"
+    },
+    {
+      "name": "WeAreTomorrowsSovietPeople",
+      "type": "musicdisc",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "we_are_tomorrows_soviet_people",
+      "path": "~/Discs"
+    },
+    {
+      "name": "SovietFlag",
+      "type": "painting",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soviet_flag",
+      "path": "~/SovietFlag"
+    },
+    {
+      "name": "SovietFlagMedium",
+      "type": "painting",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soviet_flag_medium",
+      "path": "~/SovietFlag"
+    },
+    {
+      "name": "SovietFlagSmall",
+      "type": "painting",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soviet_flag_small",
+      "path": "~/SovietFlag"
+    },
+    {
+      "name": "CCCP",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cccp"
+    },
+    {
+      "name": "Bear",
+      "type": "mob",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bear",
+      "path": "~/LivingEntities"
+    },
+    {
+      "name": "MilkchocolatealionkaWhenEaten",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milkchocolatealionka_when_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "Milkchocolatealionka",
+      "type": "food",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "milkchocolatealionka",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "ChocolateProduction",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chocolate_production",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "AHappyChild",
+      "type": "achievement",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_happy_child",
+      "path": "~/Acheivements"
+    },
+    {
+      "name": "CondensedMilkPackWhenDrunk",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_milk_pack_when_drunk",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "CondensedMilkPack",
+      "type": "food",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_milk_pack",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "CondensedMilkPackProduction",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_milk_pack_production",
+      "path": "~/Food and Drink"
+    },
+    {
+      "name": "Shapka",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "shapka",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "Bullet762x25mm",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "bullet_762x_25mm",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "PPSh41",
+      "type": "gun",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "pp_sh_41",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "PPSh41WhenFiring",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pp_sh_41_when_firing",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "PPSh41HitEnt",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pp_sh_41_hit_ent",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "BulletProducing",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_producing",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "MosinNaganthitentity",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mosin_naganthitentity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "Bullet762x54mmR",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "bullet_762x_54mm_r",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "MosinNagantUsed",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mosin_nagant_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "MosinNagant",
+      "type": "gun",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mosin_nagant",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "BulletProducing76254",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_producing_76254",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "ChargingHornWhenClickingAir",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charging_horn_when_using",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/OtherItems"
+    },
+    {
+      "name": "Sound",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sound",
+      "path": "~/OtherItems"
+    },
+    {
+      "name": "ChargingHorn",
+      "type": "gun",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charging_horn",
+      "path": "~/OtherItems"
+    },
+    {
+      "name": "ChargingHornUsedForPlayer",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charging_horn_used_for_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/OtherItems"
+    },
+    {
+      "name": "SovietBanner",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soviet_banner",
+      "path": "~/SovietFlag"
+    },
+    {
+      "name": "SovietFlagCrafting",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soviet_flag_crafting",
+      "path": "~/SovietFlag"
+    },
+    {
+      "name": "ShapkaCrafting",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shapka_crafting",
+      "path": "~/Armors"
+    },
+    {
+      "name": "ChargingHornCrafting",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "charging_horn_crafting",
+      "path": "~/OtherItems"
+    },
+    {
+      "name": "MosinNagantCrafting",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mosin_nagant_crafting",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "PPSh41Crafting",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pp_sh_41_crafting",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "Bullet762x39mm",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "bullet_762x_39mm",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "AK47",
+      "type": "gun",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "ak_47",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "AK47Crafting",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ak_47_crafting",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "BulletProducing3",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bullet_producing_3",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "HappyWind",
+      "type": "musicdisc",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "happy_wind",
+      "path": "~/Discs"
+    },
+    {
+      "name": "YoungPioneersFestival",
+      "type": "musicdisc",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "young_pioneers_festival",
+      "path": "~/Discs"
+    },
+    {
+      "name": "NoCommunistPartyNoNewChina",
+      "type": "musicdisc",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "no_communist_party_no_new_china",
+      "path": "~/Discs"
+    },
+    {
+      "name": "StreamerServeThePeople",
+      "type": "painting",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "streamer_serve_the_people",
+      "path": "~/Posters"
+    },
+    {
+      "name": "StreamerServeThePeopleSmall",
+      "type": "painting",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "streamer_serve_the_people_small",
+      "path": "~/Posters"
+    },
+    {
+      "name": "OurTriumphantSatellite",
+      "type": "musicdisc",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "our_triumphant_satellite",
+      "path": "~/Discs"
+    },
+    {
+      "name": "Varchavianka",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "varchavianka",
+      "path": "~/Discs"
+    },
+    {
+      "name": "BarrelFood",
+      "type": "loottable",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "barrel_food",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Chestdiscs",
+      "type": "loottable",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chestdiscs",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Barreldrinks",
+      "type": "loottable",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "barreldrinks",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Woodhouse1",
+      "type": "structure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "woodhouse_1",
+      "path": "~/Structures and Biomes"
+    },
+    {
+      "name": "Capitalist",
+      "type": "mob",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "capitalist",
+      "path": "~/LivingEntities"
+    },
+    {
+      "name": "TopHat",
+      "type": "armor",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "top_hat",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": false
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "Ashplant",
+      "type": "tool",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ashplant",
+      "path": "~/OtherItems"
+    },
+    {
+      "name": "Overcoat",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "overcoat",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "SovietBoots",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "soviet_boots",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "Armypants",
+      "type": "armor",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "armypants",
+      "metadata": {
+        "eh": false,
+        "el": true,
+        "eb": false,
+        "ec": false
+      },
+      "path": "~/Armors"
+    },
+    {
+      "name": "Overcoatcrafting",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overcoatcrafting",
+      "path": "~/Armors"
+    },
+    {
+      "name": "Bootscrafting",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bootscrafting",
+      "path": "~/Armors"
+    },
+    {
+      "name": "Armypantscrafting",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "armypantscrafting",
+      "path": "~/Armors"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "internationale_cn",
+      "files": [
+        "internationalecn"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "troika_galop",
+      "files": [
+        "troika_galop"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "an_evening_outside_moscow",
+      "files": [
+        "vladimir_troshin_-_podmoskovnyie_viechiera"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "internationale_ru",
+      "files": [
+        "sssr_-_intiernatsional"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "cccp_anthem",
+      "files": [
+        "gosudarstviennyi_ghimn_sssr"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "katyusha",
+      "files": [
+        "katiusha"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "we_are_your_firm_successor_the_cyl",
+      "files": [
+        "my_-_viernaia_smiena_tvoia_komsomol"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "we_are_tomorrows_soviet_people",
+      "files": [
+        "my_zavtrap_sovietskii_narod"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "ppsh41shot",
+      "files": [
+        "ppsh-41"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "mosin_nagant_shot",
+      "files": [
+        "mosinnagantshot"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "charginghorn",
+      "files": [
+        "charging_horn"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "ak47shoot",
+      "files": [
+        "ak47"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "no_communist_party_no_new_china",
+      "files": [
+        "no_communist_party_no_new_china"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "young_pioneers_day",
+      "files": [
+        "prazdnik_pionierii"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "happywind",
+      "files": [
+        "viesielyi_vietier"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "varchavianka",
+      "files": [
+        "varshavianka"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "our_triumphant_satellite",
+      "files": [
+        "sputnik_nashikh_pobied"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "item.communism_lifeandart.beverage_can": "бутылка для напитков",
+      "advancements.tovarishchvodka.descr": "Банку водки",
+      "item.communism_lifeandart.sound": "Sound",
+      "item.communism_lifeandart.cooked_sausage": "вареная колбаса",
+      "item.communism_lifeandart.katyusha": "Катюша",
+      "subtitles.varchavianka": "",
+      "item.communism_lifeandart.okroshka": "Окрошка",
+      "item.communism_lifeandart.mosin_nagant": "Винтовка Мосина",
+      "subtitles.young_pioneers_day": "",
+      "subtitles.we_are_your_firm_successor_the_cyl": "",
+      "item.communism_lifeandart.young_pioneers_festival.desc": "Праздник Пионерии",
+      "item.communism_lifeandart.varchavianka": "Варшавянка",
+      "item.communism_lifeandart.bullet_762x_54mm_r": "пуля 7.62x54mmR",
+      "item.communism_lifeandart.no_communist_party_no_new_china.desc": "Нам открыли коммунисты путь побед, с ними жить нам, а без них Китая нет.",
+      "item.communism_lifeandart.internationale_cn.desc": "Интернационал(китайский язык)",
+      "item.communism_lifeandart.no_communist_party_no_new_china": "Нам открыли коммунисты путь побед, с ними жить нам, а без них Китая нет.",
+      "block.communism_lifeandart.soviet_banner": "Серп и молот Флаг",
+      "subtitles.charginghorn": "",
+      "item.communism_lifeandart.pp_sh_41": "Пистолет-пулемёт Шпагина",
+      "item.communism_lifeandart.bullet_762x_25mm": "пуля 7.62x25mm",
+      "subtitles.no_communist_party_no_new_china": "",
+      "item.communism_lifeandart.empty_tin": "пустая консервы",
+      "item.communism_lifeandart.our_triumphant_satellite.desc": "Спутник наших побед",
+      "item.communism_lifeandart.rye_bread": "черный хлеб",
+      "item.communism_lifeandart.vodka": "водка",
+      "item.communism_lifeandart.internationale_cn": "Интернационал(китайский язык)",
+      "item.communism_lifeandart.cccp": "CCCP",
+      "item.communism_lifeandart.overcoat_chestplate": "пальто",
+      "item.communism_lifeandart.milkchocolatealionka": "Шоколад Алёнка",
+      "item.communism_lifeandart.soviet_boots_boots": "сапоги",
+      "item.communism_lifeandart.sausage_mould": "сосиска плесень",
+      "item.communism_lifeandart.an_evening_outside_moscow": "Подмосковные вечера",
+      "item.communism_lifeandart.armypants_leggings": "Армейские штаны",
+      "item.communism_lifeandart.troika_galop.desc": "Запрягу я тройку борзу",
+      "subtitles.internationale_ru": "",
+      "item.communism_lifeandart.bullet_762x_39mm": "пуля 7.62x39mm",
+      "item.communism_lifeandart.condensed_milk_pack": "Сгущенное молоко",
+      "advancements.a_happy_child.descr": "есть сладкий батончик шоколада",
+      "item.communism_lifeandart.we_are_tomorrows_soviet_people.desc": "МЫ ЗАВТРАП СОВЕТСКИЙ НАРОД ",
+      "item.communism_lifeandart.bear_spawn_egg": "медведь",
+      "item.communism_lifeandart.happy_wind": "Веселый ветер",
+      "advancements.gain_sausage.title": "Чем короче речь, тем лучше колбаса!",
+      "item.communism_lifeandart.troika_galop": "Запрягу я тройку борзу",
+      "item.communism_lifeandart.varchavianka.desc": "Варшавянка",
+      "subtitles.katyusha": "",
+      "item.communism_lifeandart.happy_wind.desc": "Веселый ветер",
+      "advancements.gain_sausage.descr": "Получить колбасу",
+      "subtitles.cccp_anthem": "",
+      "entity.communism_lifeandart.bear": "медведь",
+      "item.communism_lifeandart.cccp_anthem.desc": "Государственный гимн СССР",
+      "subtitles.ambient_ots": "",
+      "item.communism_lifeandart.charging_horn": "атака горн",
+      "item.communism_lifeandart.top_hat_helmet": "шляпа",
+      "item.communism_lifeandart.raw_sausage": "Сырая колбаса",
+      "item.communism_lifeandart.our_triumphant_satellite": "Спутник наших побед",
+      "item.communism_lifeandart.tinned_caviar": "консервы с икрой?",
+      "subtitles.ppsh41shot": "",
+      "subtitles.mosin_nagant_shot": "",
+      "item.communism_lifeandart.internationale_cccp": "Интернационал",
+      "item.communism_lifeandart.cccp_anthem": "Государственный гимн СССР",
+      "subtitles.our_triumphant_satellite": "",
+      "subtitles.an_evening_outside_moscow": "",
+      "subtitles.troika_galop": "",
+      "item.communism_lifeandart.ashplant": "трость",
+      "subtitles.happywind": "",
+      "item.communism_lifeandart.ak_47": "1947-год Автомат Калашникова",
+      "entity.communism_lifeandart.capitalist": "капиталист",
+      "item.communism_lifeandart.shapka_helmet": "Шапка",
+      "subtitles.internationale_cn": "",
+      "subtitles.ak47shoot": "",
+      "item.communism_lifeandart.russian_soup": "Борщ",
+      "subtitles.we_are_tomorrows_soviet_people": "",
+      "item.communism_lifeandart.we_are_your_firm_successor_the_cyl.desc": "Мы - верная смена твоя, Комсомол",
+      "item.communism_lifeandart.kvass": "квас",
+      "itemGroup.tabcommunism_life_and_art": "Коммунизм:жизнь и искусство",
+      "item.communism_lifeandart.we_are_your_firm_successor_the_cyl": "Мы - верная смена твоя, Комсомол",
+      "item.communism_lifeandart.katyusha.desc": "Катюша",
+      "item.communism_lifeandart.we_are_tomorrows_soviet_people": "МЫ ЗАВТРАП СОВЕТСКИЙ НАРОД ",
+      "item.communism_lifeandart.tinned_salmon_caviar": "Оловянная лососевая икра",
+      "item.communism_lifeandart.internationale_cccp.desc": "Интернационал",
+      "item.communism_lifeandart.young_pioneers_festival": "Праздник Пионерии",
+      "item.communism_lifeandart.capitalist_spawn_egg": "капиталист",
+      "subtitles.inthefieldsofhope": "",
+      "advancements.a_happy_child.title": "счастливый ребенок",
+      "item.communism_lifeandart.an_evening_outside_moscow.desc": "Владимир Трошин - Подмосковные вечера",
+      "advancements.tovarishchvodka.title": "товарищ, водка!"
+    },
+    "en_us": {
+      "item.communism_lifeandart.beverage_can": "Beverage Can",
+      "advancements.tovarishchvodka.descr": "Get A Tin Of Vodka",
+      "item.communism_lifeandart.sound": "Sound",
+      "item.communism_lifeandart.cooked_sausage": "Cooked Sausage",
+      "item.communism_lifeandart.katyusha": "Katyusha",
+      "subtitles.varchavianka": "",
+      "item.communism_lifeandart.okroshka": "Okroshka",
+      "item.communism_lifeandart.mosin_nagant": "Mosin Nagant",
+      "subtitles.young_pioneers_day": "",
+      "subtitles.we_are_your_firm_successor_the_cyl": "",
+      "item.communism_lifeandart.young_pioneers_festival.desc": "Young Pioneer\u0027s Day",
+      "item.communism_lifeandart.varchavianka": "Varchavianka",
+      "item.communism_lifeandart.bullet_762x_54mm_r": "Bullet 7.62x54mmR",
+      "item.communism_lifeandart.no_communist_party_no_new_china.desc": "No Communist Party, No New China",
+      "item.communism_lifeandart.internationale_cn.desc": "Internationale(Chinese Version)",
+      "item.communism_lifeandart.no_communist_party_no_new_china": "No Communist Party, No New China",
+      "block.communism_lifeandart.soviet_banner": "Soviet Banner",
+      "subtitles.charginghorn": "",
+      "item.communism_lifeandart.pp_sh_41": "PPSh-41",
+      "item.communism_lifeandart.bullet_762x_25mm": "Bullet 7.62x25mm",
+      "subtitles.no_communist_party_no_new_china": "",
+      "item.communism_lifeandart.empty_tin": "Empty Tin",
+      "item.communism_lifeandart.our_triumphant_satellite.desc": "Our Triumphant Satellite",
+      "item.communism_lifeandart.rye_bread": "Rye Bread",
+      "item.communism_lifeandart.vodka": "Vodka",
+      "item.communism_lifeandart.internationale_cn": "Internationale CN",
+      "item.communism_lifeandart.cccp": "CCCP",
+      "item.communism_lifeandart.overcoat_chestplate": "Overcoat",
+      "item.communism_lifeandart.milkchocolatealionka": "Milkchocolatealionka",
+      "item.communism_lifeandart.soviet_boots_boots": "Soviet Boots",
+      "item.communism_lifeandart.sausage_mould": "Sausage Mould",
+      "item.communism_lifeandart.an_evening_outside_moscow": "An Evening Outside Moscow",
+      "item.communism_lifeandart.armypants_leggings": "Armypants",
+      "item.communism_lifeandart.troika_galop.desc": "Troika Galop",
+      "subtitles.internationale_ru": "",
+      "item.communism_lifeandart.bullet_762x_39mm": "Bullet 7.62x39mm",
+      "item.communism_lifeandart.condensed_milk_pack": "Condensed Milk Pack",
+      "advancements.a_happy_child.descr": "Have a sweet bar of chocolate",
+      "item.communism_lifeandart.we_are_tomorrows_soviet_people.desc": "We Are Tomorrow\u0027s Soviet People!",
+      "item.communism_lifeandart.bear_spawn_egg": "Bear Spawn Egg",
+      "item.communism_lifeandart.happy_wind": "Happy Wind",
+      "advancements.gain_sausage.title": "The shorter the speech,the better the sausage!",
+      "item.communism_lifeandart.troika_galop": "Troika Galop",
+      "item.communism_lifeandart.varchavianka.desc": "Varchavianka",
+      "subtitles.katyusha": "",
+      "item.communism_lifeandart.happy_wind.desc": "Happy Wind",
+      "advancements.gain_sausage.descr": "Make A Sausage",
+      "subtitles.cccp_anthem": "",
+      "entity.communism_lifeandart.bear": "Bear",
+      "item.communism_lifeandart.cccp_anthem.desc": "CCCP\u0027s national anthem",
+      "subtitles.ambient_ots": "",
+      "item.communism_lifeandart.charging_horn": "Charging Horn",
+      "item.communism_lifeandart.top_hat_helmet": "Top Hat",
+      "item.communism_lifeandart.raw_sausage": "Raw Sausage",
+      "item.communism_lifeandart.our_triumphant_satellite": "Our Triumphant Satellite",
+      "item.communism_lifeandart.tinned_caviar": "Tinned Caviar",
+      "subtitles.ppsh41shot": "",
+      "subtitles.mosin_nagant_shot": "",
+      "item.communism_lifeandart.internationale_cccp": "Internationale CCCP",
+      "item.communism_lifeandart.cccp_anthem": "CCCP Anthem",
+      "subtitles.our_triumphant_satellite": "",
+      "subtitles.an_evening_outside_moscow": "",
+      "subtitles.troika_galop": "",
+      "item.communism_lifeandart.ashplant": "Ashplant",
+      "subtitles.happywind": "",
+      "item.communism_lifeandart.ak_47": "AK-47",
+      "entity.communism_lifeandart.capitalist": "Capitalist",
+      "item.communism_lifeandart.shapka_helmet": "Shapka",
+      "subtitles.internationale_cn": "",
+      "subtitles.ak47shoot": "",
+      "item.communism_lifeandart.russian_soup": "Russian Soup",
+      "subtitles.we_are_tomorrows_soviet_people": "",
+      "item.communism_lifeandart.we_are_your_firm_successor_the_cyl.desc": "We Are Your Firm Successor,The CYL!",
+      "item.communism_lifeandart.kvass": "Kvass",
+      "itemGroup.tabcommunism_life_and_art": "Communism Life And Art",
+      "item.communism_lifeandart.we_are_your_firm_successor_the_cyl": "We Are Your Firm Successor The CYL",
+      "item.communism_lifeandart.katyusha.desc": "Katyusha",
+      "item.communism_lifeandart.we_are_tomorrows_soviet_people": "We Are Tomorrows Soviet People",
+      "item.communism_lifeandart.tinned_salmon_caviar": "Tinned Salmon Caviar",
+      "item.communism_lifeandart.internationale_cccp.desc": "Internationale(Soviet Version)",
+      "item.communism_lifeandart.young_pioneers_festival": "Young Pioneer\u0027s Day",
+      "item.communism_lifeandart.capitalist_spawn_egg": "Capitalist Spawn Egg",
+      "subtitles.inthefieldsofhope": "",
+      "advancements.a_happy_child.title": "A Happy Child",
+      "item.communism_lifeandart.an_evening_outside_moscow.desc": "An Evening Outside Moscow",
+      "advancements.tovarishchvodka.title": "товарищ, водка!"
+    },
+    "zh_cn": {
+      "item.communism_lifeandart.beverage_can": "饮料瓶",
+      "advancements.tovarishchvodka.descr": "拿到一瓶伏特加",
+      "item.communism_lifeandart.sound": "声波",
+      "item.communism_lifeandart.cooked_sausage": "熟俄罗斯大香肠",
+      "item.communism_lifeandart.katyusha": "喀秋莎",
+      "subtitles.varchavianka": "",
+      "item.communism_lifeandart.okroshka": "俄罗斯炖菜",
+      "item.communism_lifeandart.mosin_nagant": "莫辛纳甘步枪",
+      "subtitles.young_pioneers_day": "",
+      "subtitles.we_are_your_firm_successor_the_cyl": "",
+      "item.communism_lifeandart.young_pioneers_festival.desc": "少先队节",
+      "item.communism_lifeandart.varchavianka": "华沙曲",
+      "item.communism_lifeandart.bullet_762x_54mm_r": "7.62x54mmR 子弹",
+      "item.communism_lifeandart.no_communist_party_no_new_china.desc": "没有共产党，就没有新中国",
+      "item.communism_lifeandart.internationale_cn.desc": "国际歌（中文）",
+      "item.communism_lifeandart.no_communist_party_no_new_china": "没有共产党，就没有新中国",
+      "block.communism_lifeandart.soviet_banner": "镰刀锤子旗",
+      "subtitles.charginghorn": "",
+      "item.communism_lifeandart.pp_sh_41": "波波沙冲锋枪",
+      "item.communism_lifeandart.bullet_762x_25mm": "7.62x25mm 子弹",
+      "subtitles.no_communist_party_no_new_china": "",
+      "item.communism_lifeandart.empty_tin": "空罐子",
+      "item.communism_lifeandart.our_triumphant_satellite.desc": "我们胜利的卫星",
+      "item.communism_lifeandart.rye_bread": "俄罗斯黑面包",
+      "item.communism_lifeandart.vodka": "伏特加",
+      "item.communism_lifeandart.internationale_cn": "国际歌（中文）",
+      "item.communism_lifeandart.cccp": "CCCP",
+      "item.communism_lifeandart.overcoat_chestplate": "大衣",
+      "item.communism_lifeandart.milkchocolatealionka": "阿廖卡牛奶巧克力",
+      "item.communism_lifeandart.soviet_boots_boots": "军靴",
+      "item.communism_lifeandart.sausage_mould": "香肠模具",
+      "item.communism_lifeandart.an_evening_outside_moscow": "莫斯科郊外的晚上",
+      "item.communism_lifeandart.armypants_leggings": "军裤",
+      "item.communism_lifeandart.troika_galop.desc": "驾起我的三套车",
+      "subtitles.internationale_ru": "",
+      "item.communism_lifeandart.bullet_762x_39mm": "7.62x39mm子弹",
+      "item.communism_lifeandart.condensed_milk_pack": "俄罗斯炼乳",
+      "advancements.a_happy_child.descr": "吃一块香甜的巧克力！",
+      "item.communism_lifeandart.we_are_tomorrows_soviet_people.desc": "我们是明天的苏维埃人民",
+      "item.communism_lifeandart.bear_spawn_egg": "毛熊 刷怪蛋",
+      "item.communism_lifeandart.happy_wind": "快乐的风",
+      "advancements.gain_sausage.title": "发言越短越好，香肠越长越好！",
+      "item.communism_lifeandart.troika_galop": "驾起我的三套车",
+      "item.communism_lifeandart.varchavianka.desc": "华沙曲",
+      "subtitles.katyusha": "",
+      "item.communism_lifeandart.happy_wind.desc": "快乐的风",
+      "advancements.gain_sausage.descr": "制作一根俄罗斯大香肠！",
+      "subtitles.cccp_anthem": "",
+      "entity.communism_lifeandart.bear": "毛熊",
+      "item.communism_lifeandart.cccp_anthem.desc": "牢不可破的联盟",
+      "subtitles.ambient_ots": "",
+      "item.communism_lifeandart.charging_horn": "冲锋号",
+      "item.communism_lifeandart.top_hat_helmet": "高礼帽",
+      "item.communism_lifeandart.raw_sausage": "生俄罗斯大香肠",
+      "item.communism_lifeandart.our_triumphant_satellite": "我们胜利的卫星",
+      "item.communism_lifeandart.tinned_caviar": "罐装鱼子酱",
+      "subtitles.ppsh41shot": "",
+      "subtitles.mosin_nagant_shot": "",
+      "item.communism_lifeandart.internationale_cccp": "国际歌（俄语）",
+      "item.communism_lifeandart.cccp_anthem": "牢不可破的联盟",
+      "subtitles.our_triumphant_satellite": "",
+      "subtitles.an_evening_outside_moscow": "",
+      "subtitles.troika_galop": "",
+      "item.communism_lifeandart.ashplant": "手杖",
+      "subtitles.happywind": "",
+      "item.communism_lifeandart.ak_47": "AK-47突击步枪",
+      "entity.communism_lifeandart.capitalist": "资本家",
+      "item.communism_lifeandart.shapka_helmet": "沙普卡",
+      "subtitles.internationale_cn": "",
+      "subtitles.ak47shoot": "",
+      "item.communism_lifeandart.russian_soup": "罗宋汤",
+      "subtitles.we_are_tomorrows_soviet_people": "",
+      "item.communism_lifeandart.we_are_your_firm_successor_the_cyl.desc": "我们是你忠诚的接班人，共青团！",
+      "item.communism_lifeandart.kvass": "格瓦斯",
+      "itemGroup.tabcommunism_life_and_art": "共产主义：生活与艺术",
+      "item.communism_lifeandart.we_are_your_firm_successor_the_cyl": "我们是你忠诚的接班人，共青团！",
+      "item.communism_lifeandart.katyusha.desc": "喀秋莎",
+      "item.communism_lifeandart.we_are_tomorrows_soviet_people": "我们是明天的苏维埃人民",
+      "item.communism_lifeandart.tinned_salmon_caviar": "罐装大马哈鱼子酱",
+      "item.communism_lifeandart.internationale_cccp.desc": "国际歌（俄语）",
+      "item.communism_lifeandart.young_pioneers_festival": "少先队节",
+      "item.communism_lifeandart.capitalist_spawn_egg": "生成 资本家",
+      "subtitles.inthefieldsofhope": "",
+      "advancements.a_happy_child.title": "幸福的儿童",
+      "item.communism_lifeandart.an_evening_outside_moscow.desc": "莫斯科郊外的晚上",
+      "advancements.tovarishchvodka.title": "同志，伏特加！"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Posters",
+        "children": []
+      },
+      {
+        "name": "Food and Drink",
+        "children": []
+      },
+      {
+        "name": "Acheivements",
+        "children": []
+      },
+      {
+        "name": "Discs",
+        "children": []
+      },
+      {
+        "name": "SovietFlag",
+        "children": []
+      },
+      {
+        "name": "Armors",
+        "children": []
+      },
+      {
+        "name": "Weapons",
+        "children": []
+      },
+      {
+        "name": "OtherItems",
+        "children": []
+      },
+      {
+        "name": "Structures and Biomes",
+        "children": []
+      },
+      {
+        "name": "Loot Tables",
+        "children": []
+      },
+      {
+        "name": "LivingEntities",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "communism_lifeandart",
+    "modName": "Communism:Life And Art",
+    "version": "1.1.1",
+    "author": "Tapio, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 2 (GPLv2)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "cccp",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.plr.communism_lifeandart",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}

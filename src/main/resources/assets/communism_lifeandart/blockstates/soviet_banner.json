@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "communism_lifeandart:block/soviet_banner"
+    },
+    "facing=east": {
+      "model": "communism_lifeandart:block/soviet_banner",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "communism_lifeandart:block/soviet_banner",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "communism_lifeandart:block/soviet_banner",
+      "y": 270
+    }
+  }
+}

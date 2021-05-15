@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "our_triumphant_satellite",
+    "name": "Our Triumphant Satellite",
+    "description": "Our Triumphant Satellite",
+    "creativeTab": {
+      "value": "CUSTOM:CommunismLifeAndArt"
+    },
+    "music": {
+      "value": "CUSTOM:our_triumphant_satellite"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 18,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "tinned_salmon_caviar",
+    "customModelName": "Normal",
+    "name": "Tinned Salmon Caviar",
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CommunismLifeAndArt"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 4.0,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": "CUSTOM:EmptyTin"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "TinnedSalmonCaviarWhenEaten"
+    }
+  }
+}

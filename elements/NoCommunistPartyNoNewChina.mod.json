@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "nocommunistpartynonewchina",
+    "name": "No Communist Party, No New China",
+    "description": "No Communist Party, No New China",
+    "creativeTab": {
+      "value": "CUSTOM:CommunismLifeAndArt"
+    },
+    "music": {
+      "value": "CUSTOM:no_communist_party_no_new_china"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

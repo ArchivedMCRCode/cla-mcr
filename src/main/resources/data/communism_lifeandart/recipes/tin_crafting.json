@@ -1,0 +1,23 @@
+{
+  "group": "communism_lifeandart",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass_pane"
+    },
+    "2": {
+      "item": "minecraft:glass_pane"
+    },
+    "4": {
+      "item": "minecraft:glass_pane"
+    }
+  },
+  "result": {
+    "item": "communism_lifeandart:empty_tin",
+    "count": 2
+  }
+}

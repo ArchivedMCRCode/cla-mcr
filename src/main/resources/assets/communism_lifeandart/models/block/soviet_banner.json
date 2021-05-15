@@ -1,0 +1,8 @@
+{
+  "parent": "communism_lifeandart:custom/has",
+  "textures": {
+    "all": "communism_lifeandart:blocks/littlesovietbannerblock",
+    "particle": "communism_lifeandart:blocks/littlesovietbannerblock",
+    "0": "communism_lifeandart:blocks/bannerblock"
+  }
+}

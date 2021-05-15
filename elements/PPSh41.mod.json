@@ -1,0 +1,43 @@
+{
+  "_fv": 18,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "ppsh",
+    "customModelName": "Normal",
+    "name": "PPSh-41",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:CommunismLifeAndArt"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Bullet762x25mm"
+    },
+    "shootConstantly": true,
+    "usageCount": 3000,
+    "actionSound": {
+      "value": "CUSTOM:ppsh41shot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "onRangedItemUsed": {
+      "name": "PPSh41WhenFiring"
+    },
+    "bulletPower": 2.0,
+    "bulletDamage": 1.7,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Bullet762x25mm"
+    },
+    "bulletModel": "Modelcustom_model",
+    "customBulletModelTexture": "bullet7.62.png",
+    "onBulletHitsEntity": {
+      "name": "PPSh41HitEnt"
+    }
+  }
+}

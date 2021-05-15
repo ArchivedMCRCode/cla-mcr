@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "communism_lifeandart:milkchocolatealionka"
+    },
+    "title": {
+      "translate": "advancements.a_happy_child.title"
+    },
+    "description": {
+      "translate": "advancements.a_happy_child.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_happy_child": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "communism_lifeandart:milkchocolatealionka"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

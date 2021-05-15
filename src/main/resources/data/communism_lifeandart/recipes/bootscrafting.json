@@ -1,0 +1,29 @@
+{
+  "group": "communism_lifeandart",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:black_wool"
+    },
+    "2": {
+      "item": "minecraft:black_wool"
+    },
+    "3": {
+      "item": "minecraft:black_wool"
+    },
+    "4": {
+      "item": "minecraft:leather_boots"
+    },
+    "5": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "communism_lifeandart:soviet_boots_boots",
+    "count": 1
+  }
+}

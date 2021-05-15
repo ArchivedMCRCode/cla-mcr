@@ -1,0 +1,39 @@
+{
+  "group": "communism_lifeandart",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:stone"
+    },
+    "3": {
+      "item": "minecraft:stripped_oak_wood"
+    },
+    "4": {
+      "item": "minecraft:stripped_oak_wood"
+    },
+    "5": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:stone"
+    },
+    "8": {
+      "item": "minecraft:stripped_oak_wood"
+    }
+  },
+  "result": {
+    "item": "communism_lifeandart:mosin_nagant",
+    "count": 1
+  }
+}

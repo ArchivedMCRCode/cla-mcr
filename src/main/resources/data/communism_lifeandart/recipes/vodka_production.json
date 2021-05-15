@@ -1,0 +1,42 @@
+{
+  "group": "communism_lifeandart",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:potato"
+    },
+    "1": {
+      "item": "minecraft:potato"
+    },
+    "2": {
+      "item": "minecraft:potato"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "communism_lifeandart:beverage_can"
+    },
+    "5": {
+      "item": "minecraft:sugar"
+    },
+    "6": {
+      "item": "communism_lifeandart:beverage_can"
+    },
+    "7": {
+      "item": "minecraft:water_bucket"
+    },
+    "8": {
+      "item": "communism_lifeandart:beverage_can"
+    }
+  },
+  "result": {
+    "item": "communism_lifeandart:vodka",
+    "count": 3
+  }
+}

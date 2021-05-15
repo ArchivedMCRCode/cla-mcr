@@ -1,0 +1,17 @@
+{
+  "_fv": 18,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "katyusha",
+    "name": "Katyusha",
+    "description": "Katyusha",
+    "creativeTab": {
+      "value": "CUSTOM:CommunismLifeAndArt"
+    },
+    "music": {
+      "value": "CUSTOM:katyusha"
+    },
+    "specialInfo": [],
+    "hasGlow": true
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "rsoup",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.BEETROOT"
+      },
+      {
+        "value": "Items.BEETROOT"
+      },
+      {
+        "value": "Items.BEETROOT"
+      },
+      {
+        "value": "Items.BEETROOT"
+      },
+      {
+        "value": "Items.COOKED_BEEF"
+      },
+      {
+        "value": "Items.BEETROOT"
+      },
+      {
+        "value": "Items.BOWL"
+      },
+      {
+        "value": "Items.BAKED_POTATO"
+      },
+      {
+        "value": "Items.BOWL"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RussianSoup"
+    },
+    "name": "russian_soup_production",
+    "namespace": "mod"
+  }
+}

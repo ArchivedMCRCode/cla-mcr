@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "communism_lifeandart:vodka"
+    },
+    "title": {
+      "translate": "advancements.tovarishchvodka.title"
+    },
+    "description": {
+      "translate": "advancements.tovarishchvodka.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tovarishchvodka": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "communism_lifeandart:vodka"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

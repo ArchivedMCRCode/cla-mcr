@@ -1,0 +1,42 @@
+{
+  "group": "rsoup",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:beetroot"
+    },
+    "1": {
+      "item": "minecraft:beetroot"
+    },
+    "2": {
+      "item": "minecraft:beetroot"
+    },
+    "3": {
+      "item": "minecraft:beetroot"
+    },
+    "4": {
+      "item": "minecraft:cooked_beef"
+    },
+    "5": {
+      "item": "minecraft:beetroot"
+    },
+    "6": {
+      "item": "minecraft:bowl"
+    },
+    "7": {
+      "item": "minecraft:baked_potato"
+    },
+    "8": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "result": {
+    "item": "communism_lifeandart:russian_soup",
+    "count": 2
+  }
+}

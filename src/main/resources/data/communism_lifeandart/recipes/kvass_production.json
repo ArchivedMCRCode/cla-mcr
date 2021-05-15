@@ -1,0 +1,25 @@
+{
+  "group": "kvass",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "communism_lifeandart:beverage_can"
+    }
+  ],
+  "result": {
+    "item": "communism_lifeandart:kvass",
+    "count": 1
+  }
+}
