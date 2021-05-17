@@ -79,6 +79,8 @@ public class CommunismLifeandartModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "varchavianka")));
 		sounds.put(new ResourceLocation("communism_lifeandart", "our_triumphant_satellite"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "our_triumphant_satellite")));
+		sounds.put(new ResourceLocation("communism_lifeandart", "engine_combine"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "engine_combine")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("communism_lifeandart").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

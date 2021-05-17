@@ -1360,6 +1360,147 @@
       "ids": {},
       "registry_name": "armypantscrafting",
       "path": "~/Armors"
+    },
+    {
+      "name": "CombineIdle",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "combine_idle",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CombineDon",
+      "type": "mob",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "combine_don",
+      "path": "~/LivingEntities"
+    },
+    {
+      "name": "CombineDonGenerator",
+      "type": "tool",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "combine_don_generator",
+      "path": "~/LivingEntities"
+    },
+    {
+      "name": "CombineDonGeneratorWhenUsed",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "combine_don_generator_when_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Combinecrafting",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "combinecrafting",
+      "path": "~/LivingEntities"
+    },
+    {
+      "name": "Wrench",
+      "type": "item",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wrench",
+      "path": "~/LivingEntities"
+    },
+    {
+      "name": "WrenchCrafting",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wrench_crafting",
+      "path": "~/LivingEntities"
+    },
+    {
+      "name": "CombineWhenclicked",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "combine_whenclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1499,6 +1640,14 @@
       ],
       "category": "music",
       "subtitle": ""
+    },
+    {
+      "name": "engine_combine",
+      "files": [
+        "enginecombine"
+      ],
+      "category": "master",
+      "subtitle": "Combine:Engine"
     }
   ],
   "language_map": {
@@ -1547,6 +1696,8 @@
       "advancements.gain_sausage.title": "Чем короче речь, тем лучше колбаса!",
       "item.communism_lifeandart.troika_galop": "Запрягу я тройку борзу",
       "item.communism_lifeandart.varchavianka.desc": "Варшавянка",
+      "subtitles.enginecultivator": "",
+      "entity.communism_lifeandart.combine_don": "комбайн Дон",
       "subtitles.katyusha": "",
       "item.communism_lifeandart.happy_wind.desc": "Веселый ветер",
       "advancements.gain_sausage.descr": "Получить колбасу",
@@ -1555,6 +1706,7 @@
       "item.communism_lifeandart.cccp_anthem.desc": "Государственный гимн СССР",
       "subtitles.ambient_ots": "",
       "item.communism_lifeandart.charging_horn": "атака горн",
+      "subtitles.engine_cultivator": "",
       "item.communism_lifeandart.top_hat_helmet": "шляпа",
       "item.communism_lifeandart.raw_sausage": "Сырая колбаса",
       "item.communism_lifeandart.our_triumphant_satellite": "Спутник наших побед",
@@ -1564,6 +1716,7 @@
       "item.communism_lifeandart.internationale_cccp": "Интернационал",
       "item.communism_lifeandart.cccp_anthem": "Государственный гимн СССР",
       "subtitles.our_triumphant_satellite": "",
+      "item.communism_lifeandart.combine_don_generator": "строить комбайн Дон",
       "subtitles.an_evening_outside_moscow": "",
       "subtitles.troika_galop": "",
       "item.communism_lifeandart.ashplant": "трость",
@@ -1572,6 +1725,7 @@
       "entity.communism_lifeandart.capitalist": "капиталист",
       "item.communism_lifeandart.shapka_helmet": "Шапка",
       "subtitles.internationale_cn": "",
+      "item.communism_lifeandart.wrench": "гаечный ключ",
       "subtitles.ak47shoot": "",
       "item.communism_lifeandart.russian_soup": "Борщ",
       "subtitles.we_are_tomorrows_soviet_people": "",
@@ -1585,6 +1739,7 @@
       "item.communism_lifeandart.internationale_cccp.desc": "Интернационал",
       "item.communism_lifeandart.young_pioneers_festival": "Праздник Пионерии",
       "item.communism_lifeandart.capitalist_spawn_egg": "капиталист",
+      "subtitles.engine_combine": "Combine:Engine",
       "subtitles.inthefieldsofhope": "",
       "advancements.a_happy_child.title": "счастливый ребенок",
       "item.communism_lifeandart.an_evening_outside_moscow.desc": "Владимир Трошин - Подмосковные вечера",
@@ -1635,6 +1790,8 @@
       "advancements.gain_sausage.title": "The shorter the speech,the better the sausage!",
       "item.communism_lifeandart.troika_galop": "Troika Galop",
       "item.communism_lifeandart.varchavianka.desc": "Varchavianka",
+      "subtitles.enginecultivator": "",
+      "entity.communism_lifeandart.combine_don": "Combine Don",
       "subtitles.katyusha": "",
       "item.communism_lifeandart.happy_wind.desc": "Happy Wind",
       "advancements.gain_sausage.descr": "Make A Sausage",
@@ -1643,6 +1800,7 @@
       "item.communism_lifeandart.cccp_anthem.desc": "CCCP\u0027s national anthem",
       "subtitles.ambient_ots": "",
       "item.communism_lifeandart.charging_horn": "Charging Horn",
+      "subtitles.engine_cultivator": "",
       "item.communism_lifeandart.top_hat_helmet": "Top Hat",
       "item.communism_lifeandart.raw_sausage": "Raw Sausage",
       "item.communism_lifeandart.our_triumphant_satellite": "Our Triumphant Satellite",
@@ -1652,6 +1810,7 @@
       "item.communism_lifeandart.internationale_cccp": "Internationale CCCP",
       "item.communism_lifeandart.cccp_anthem": "CCCP Anthem",
       "subtitles.our_triumphant_satellite": "",
+      "item.communism_lifeandart.combine_don_generator": "Combine Don Generator",
       "subtitles.an_evening_outside_moscow": "",
       "subtitles.troika_galop": "",
       "item.communism_lifeandart.ashplant": "Ashplant",
@@ -1660,6 +1819,7 @@
       "entity.communism_lifeandart.capitalist": "Capitalist",
       "item.communism_lifeandart.shapka_helmet": "Shapka",
       "subtitles.internationale_cn": "",
+      "item.communism_lifeandart.wrench": "Wrench",
       "subtitles.ak47shoot": "",
       "item.communism_lifeandart.russian_soup": "Russian Soup",
       "subtitles.we_are_tomorrows_soviet_people": "",
@@ -1673,6 +1833,7 @@
       "item.communism_lifeandart.internationale_cccp.desc": "Internationale(Soviet Version)",
       "item.communism_lifeandart.young_pioneers_festival": "Young Pioneer\u0027s Day",
       "item.communism_lifeandart.capitalist_spawn_egg": "Capitalist Spawn Egg",
+      "subtitles.engine_combine": "Combine:Engine",
       "subtitles.inthefieldsofhope": "",
       "advancements.a_happy_child.title": "A Happy Child",
       "item.communism_lifeandart.an_evening_outside_moscow.desc": "An Evening Outside Moscow",
@@ -1723,6 +1884,8 @@
       "advancements.gain_sausage.title": "发言越短越好，香肠越长越好！",
       "item.communism_lifeandart.troika_galop": "驾起我的三套车",
       "item.communism_lifeandart.varchavianka.desc": "华沙曲",
+      "subtitles.enginecultivator": "",
+      "entity.communism_lifeandart.combine_don": "顿河牌收割机",
       "subtitles.katyusha": "",
       "item.communism_lifeandart.happy_wind.desc": "快乐的风",
       "advancements.gain_sausage.descr": "制作一根俄罗斯大香肠！",
@@ -1731,6 +1894,7 @@
       "item.communism_lifeandart.cccp_anthem.desc": "牢不可破的联盟",
       "subtitles.ambient_ots": "",
       "item.communism_lifeandart.charging_horn": "冲锋号",
+      "subtitles.engine_cultivator": "",
       "item.communism_lifeandart.top_hat_helmet": "高礼帽",
       "item.communism_lifeandart.raw_sausage": "生俄罗斯大香肠",
       "item.communism_lifeandart.our_triumphant_satellite": "我们胜利的卫星",
@@ -1740,6 +1904,7 @@
       "item.communism_lifeandart.internationale_cccp": "国际歌（俄语）",
       "item.communism_lifeandart.cccp_anthem": "牢不可破的联盟",
       "subtitles.our_triumphant_satellite": "",
+      "item.communism_lifeandart.combine_don_generator": "建造 顿河牌收割机",
       "subtitles.an_evening_outside_moscow": "",
       "subtitles.troika_galop": "",
       "item.communism_lifeandart.ashplant": "手杖",
@@ -1748,6 +1913,7 @@
       "entity.communism_lifeandart.capitalist": "资本家",
       "item.communism_lifeandart.shapka_helmet": "沙普卡",
       "subtitles.internationale_cn": "",
+      "item.communism_lifeandart.wrench": "扳手",
       "subtitles.ak47shoot": "",
       "item.communism_lifeandart.russian_soup": "罗宋汤",
       "subtitles.we_are_tomorrows_soviet_people": "",
@@ -1761,6 +1927,7 @@
       "item.communism_lifeandart.internationale_cccp.desc": "国际歌（俄语）",
       "item.communism_lifeandart.young_pioneers_festival": "少先队节",
       "item.communism_lifeandart.capitalist_spawn_egg": "生成 资本家",
+      "subtitles.engine_combine": "收割机：引擎声",
       "subtitles.inthefieldsofhope": "",
       "advancements.a_happy_child.title": "幸福的儿童",
       "item.communism_lifeandart.an_evening_outside_moscow.desc": "莫斯科郊外的晚上",
@@ -1819,7 +1986,7 @@
   "workspaceSettings": {
     "modid": "communism_lifeandart",
     "modName": "Communism:Life And Art",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "author": "Tapio, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "GNU General Public License version 2 (GPLv2)",

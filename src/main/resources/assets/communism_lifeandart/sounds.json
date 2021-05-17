@@ -151,5 +151,15 @@
         "stream": true
       }
     ]
+  },
+  "engine_combine": {
+    "category": "master",
+    "subtitle": "subtitles.engine_combine",
+    "sounds": [
+      {
+        "name": "communism_lifeandart:enginecombine",
+        "stream": false
+      }
+    ]
   }
 }
