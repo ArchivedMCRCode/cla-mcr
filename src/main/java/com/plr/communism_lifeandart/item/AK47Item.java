@@ -31,7 +31,11 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 
 import java.util.Random;
+import java.util.Map;
+import java.util.HashMap;
 
+import com.plr.communism_lifeandart.procedures.AK47WhenHitLivingEntitiesProcedure;
+import com.plr.communism_lifeandart.procedures.AK47RecoilProcedure;
 import com.plr.communism_lifeandart.itemgroup.CommunismLifeAndArtItemGroup;
 import com.plr.communism_lifeandart.entity.renderer.AK47Renderer;
 import com.plr.communism_lifeandart.CommunismLifeandartModElements;
@@ -44,7 +48,7 @@ public class AK47Item extends CommunismLifeandartModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletak_47").setRegistryName("entitybulletak_47");
 	public AK47Item(CommunismLifeandartModElements instance) {
-		super(instance, 20);
+		super(instance, 40);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AK47Renderer.ModelRegisterHandler());
 	}
 
@@ -96,7 +100,7 @@ public class AK47Item extends CommunismLifeandartModElements.ModElement {
 						}
 					}
 					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
-						ArrowCustomEntity entityarrow = shoot(world, entity, random, 3f, 1.4, 0);
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 9f, 0, 0);
 						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 						if (entity.abilities.isCreativeMode) {
 							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
@@ -155,9 +159,34 @@ public class AK47Item extends CommunismLifeandartModElements.ModElement {
 		}
 
 		@Override
+		public void onCollideWithPlayer(PlayerEntity entity) {
+			super.onCollideWithPlayer(entity);
+			Entity sourceentity = this.func_234616_v_();
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			World world = this.world;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				AK47RecoilProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
 		protected void arrowHit(LivingEntity entity) {
 			super.arrowHit(entity);
 			entity.setArrowCountInEntity(entity.getArrowCountInEntity() - 1);
+			Entity sourceentity = this.func_234616_v_();
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			World world = this.world;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				AK47WhenHitLivingEntitiesProcedure.executeProcedure($_dependencies);
+			}
 		}
 
 		@Override
@@ -195,9 +224,9 @@ public class AK47Item extends CommunismLifeandartModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 3f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 9f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(1.4);
+		entityarrow.setDamage(0);
 		entityarrow.setKnockbackStrength(0);
 		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);

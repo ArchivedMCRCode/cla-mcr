@@ -69,7 +69,7 @@ public class PPSh41Renderer {
 			textureHeight = 16;
 			bullet = new ModelRenderer(this);
 			bullet.setRotationPoint(0.0F, 24.0F, 0.0F);
-			bullet.setTextureOffset(0, 0).addBox(-1.0F, -2.0F, -1.0F, 2.0F, 2.0F, 2.0F, 0.0F, false);
+			bullet.setTextureOffset(0, 0).addBox(0.0F, -1.0F, -1.0F, 1.0F, 1.0F, 1.0F, 0.0F, false);
 		}
 
 		@Override

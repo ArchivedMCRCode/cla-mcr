@@ -37,6 +37,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 import com.plr.communism_lifeandart.procedures.CombineWhenclickedProcedure;
+import com.plr.communism_lifeandart.procedures.CombineWhenHitProcedure;
 import com.plr.communism_lifeandart.procedures.CombineIdleProcedure;
 import com.plr.communism_lifeandart.entity.renderer.CombineDonRenderer;
 import com.plr.communism_lifeandart.CommunismLifeandartModElements;
@@ -182,6 +183,21 @@ public class CombineDonEntity extends CommunismLifeandartModElements.ModElement 
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
 				CombineIdleProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
+		public void onCollideWithPlayer(PlayerEntity sourceentity) {
+			super.onCollideWithPlayer(sourceentity);
+			Entity entity = this;
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				$_dependencies.put("sourceentity", sourceentity);
+				CombineWhenHitProcedure.executeProcedure($_dependencies);
 			}
 		}
 

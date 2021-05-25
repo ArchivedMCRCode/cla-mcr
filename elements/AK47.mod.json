@@ -23,8 +23,8 @@
     "animation": "none",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 3.0,
-    "bulletDamage": 1.4,
+    "bulletPower": 9.0,
+    "bulletDamage": 0.0,
     "bulletKnockback": 0,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
@@ -32,6 +32,12 @@
       "value": "CUSTOM:Bullet762x39mm"
     },
     "bulletModel": "Modelcustom_model",
-    "customBulletModelTexture": "bullet7.62.png"
+    "customBulletModelTexture": "bullet7.62.png",
+    "onBulletHitsPlayer": {
+      "name": "AK47Recoil"
+    },
+    "onBulletHitsEntity": {
+      "name": "AK47WhenHitLivingEntities"
+    }
   }
 }

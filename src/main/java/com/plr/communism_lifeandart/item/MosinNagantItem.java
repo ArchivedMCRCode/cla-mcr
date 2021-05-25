@@ -36,6 +36,7 @@ import java.util.HashMap;
 
 import com.plr.communism_lifeandart.procedures.MosinNaganthitentityProcedure;
 import com.plr.communism_lifeandart.procedures.MosinNagantUsedProcedure;
+import com.plr.communism_lifeandart.procedures.MosinNagantRecoilProcedure;
 import com.plr.communism_lifeandart.itemgroup.CommunismLifeAndArtItemGroup;
 import com.plr.communism_lifeandart.entity.renderer.MosinNagantRenderer;
 import com.plr.communism_lifeandart.CommunismLifeandartModElements;
@@ -99,7 +100,7 @@ public class MosinNagantItem extends CommunismLifeandartModElements.ModElement {
 						}
 					}
 					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
-						ArrowCustomEntity entityarrow = shoot(world, entity, random, 3f, 2.5, 0);
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 10f, 0, 0);
 						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 						if (entity.abilities.isCreativeMode) {
 							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
@@ -164,6 +165,21 @@ public class MosinNagantItem extends CommunismLifeandartModElements.ModElement {
 		}
 
 		@Override
+		public void onCollideWithPlayer(PlayerEntity entity) {
+			super.onCollideWithPlayer(entity);
+			Entity sourceentity = this.func_234616_v_();
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			World world = this.world;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				MosinNagantRecoilProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
 		protected void arrowHit(LivingEntity entity) {
 			super.arrowHit(entity);
 			entity.setArrowCountInEntity(entity.getArrowCountInEntity() - 1);
@@ -174,10 +190,7 @@ public class MosinNagantItem extends CommunismLifeandartModElements.ModElement {
 			World world = this.world;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
+				$_dependencies.put("entity", entity);
 				MosinNaganthitentityProcedure.executeProcedure($_dependencies);
 			}
 		}
@@ -217,9 +230,9 @@ public class MosinNagantItem extends CommunismLifeandartModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 3f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 10f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(2.5);
+		entityarrow.setDamage(0);
 		entityarrow.setKnockbackStrength(0);
 		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);

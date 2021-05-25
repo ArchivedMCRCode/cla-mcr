@@ -20,14 +20,14 @@
       "value": "CUSTOM:ppsh41shot"
     },
     "hasGlow": false,
-    "animation": "bow",
+    "animation": "none",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "onRangedItemUsed": {
       "name": "PPSh41WhenFiring"
     },
-    "bulletPower": 2.0,
-    "bulletDamage": 1.7,
+    "bulletPower": 8.0,
+    "bulletDamage": 0.0,
     "bulletKnockback": 0,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
@@ -36,6 +36,9 @@
     },
     "bulletModel": "Modelcustom_model",
     "customBulletModelTexture": "bullet7.62.png",
+    "onBulletHitsPlayer": {
+      "name": "PPSh41Recoil"
+    },
     "onBulletHitsEntity": {
       "name": "PPSh41HitEnt"
     }

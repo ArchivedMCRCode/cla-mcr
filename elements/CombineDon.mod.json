@@ -104,6 +104,9 @@
     "onMobTickUpdate": {
       "name": "CombineIdle"
     },
+    "onPlayerCollidesWith": {
+      "name": "CombineWhenHit"
+    },
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></xml>",

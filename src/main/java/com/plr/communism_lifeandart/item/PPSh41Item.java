@@ -35,6 +35,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 import com.plr.communism_lifeandart.procedures.PPSh41WhenFiringProcedure;
+import com.plr.communism_lifeandart.procedures.PPSh41RecoilProcedure;
 import com.plr.communism_lifeandart.procedures.PPSh41HitEntProcedure;
 import com.plr.communism_lifeandart.itemgroup.CommunismLifeAndArtItemGroup;
 import com.plr.communism_lifeandart.entity.renderer.PPSh41Renderer;
@@ -48,7 +49,7 @@ public class PPSh41Item extends CommunismLifeandartModElements.ModElement {
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 			.size(0.5f, 0.5f)).build("entitybulletpp_sh_41").setRegistryName("entitybulletpp_sh_41");
 	public PPSh41Item(CommunismLifeandartModElements instance) {
-		super(instance, 16);
+		super(instance, 36);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PPSh41Renderer.ModelRegisterHandler());
 	}
 
@@ -71,7 +72,7 @@ public class PPSh41Item extends CommunismLifeandartModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.BOW;
+			return UseAction.NONE;
 		}
 
 		@Override
@@ -100,7 +101,7 @@ public class PPSh41Item extends CommunismLifeandartModElements.ModElement {
 						}
 					}
 					if (entity.abilities.isCreativeMode || stack != ItemStack.EMPTY) {
-						ArrowCustomEntity entityarrow = shoot(world, entity, random, 2f, 1.7, 0);
+						ArrowCustomEntity entityarrow = shoot(world, entity, random, 8f, 0, 0);
 						itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 						if (entity.abilities.isCreativeMode) {
 							entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.CREATIVE_ONLY;
@@ -165,6 +166,21 @@ public class PPSh41Item extends CommunismLifeandartModElements.ModElement {
 		}
 
 		@Override
+		public void onCollideWithPlayer(PlayerEntity entity) {
+			super.onCollideWithPlayer(entity);
+			Entity sourceentity = this.func_234616_v_();
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			World world = this.world;
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				PPSh41RecoilProcedure.executeProcedure($_dependencies);
+			}
+		}
+
+		@Override
 		protected void arrowHit(LivingEntity entity) {
 			super.arrowHit(entity);
 			entity.setArrowCountInEntity(entity.getArrowCountInEntity() - 1);
@@ -175,10 +191,7 @@ public class PPSh41Item extends CommunismLifeandartModElements.ModElement {
 			World world = this.world;
 			{
 				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
+				$_dependencies.put("entity", entity);
 				PPSh41HitEntProcedure.executeProcedure($_dependencies);
 			}
 		}
@@ -218,9 +231,9 @@ public class PPSh41Item extends CommunismLifeandartModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 2f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 8f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(1.7);
+		entityarrow.setDamage(0);
 		entityarrow.setKnockbackStrength(0);
 		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);

@@ -26,8 +26,8 @@
     "onRangedItemUsed": {
       "name": "MosinNagantUsed"
     },
-    "bulletPower": 3.0,
-    "bulletDamage": 2.5,
+    "bulletPower": 10.0,
+    "bulletDamage": 0.0,
     "bulletKnockback": 0,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
@@ -36,6 +36,9 @@
     },
     "bulletModel": "Modelcustom_model",
     "customBulletModelTexture": "bullet7.62.png",
+    "onBulletHitsPlayer": {
+      "name": "MosinNagantRecoil"
+    },
     "onBulletHitsEntity": {
       "name": "MosinNaganthitentity"
     }
