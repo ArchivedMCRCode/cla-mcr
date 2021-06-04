@@ -1,76 +1,4 @@
 {
-  "internationale_cn": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "communism_lifeandart:internationalecn",
-        "stream": true
-      }
-    ]
-  },
-  "troika_galop": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "communism_lifeandart:troika_galop",
-        "stream": true
-      }
-    ]
-  },
-  "an_evening_outside_moscow": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "communism_lifeandart:vladimir_troshin_-_podmoskovnyie_viechiera",
-        "stream": true
-      }
-    ]
-  },
-  "internationale_ru": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "communism_lifeandart:sssr_-_intiernatsional",
-        "stream": true
-      }
-    ]
-  },
-  "cccp_anthem": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "communism_lifeandart:gosudarstviennyi_ghimn_sssr",
-        "stream": true
-      }
-    ]
-  },
-  "katyusha": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "communism_lifeandart:katiusha",
-        "stream": true
-      }
-    ]
-  },
-  "we_are_your_firm_successor_the_cyl": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "communism_lifeandart:my_-_viernaia_smiena_tvoia_komsomol",
-        "stream": true
-      }
-    ]
-  },
-  "we_are_tomorrows_soviet_people": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "communism_lifeandart:my_zavtrap_sovietskii_narod",
-        "stream": true
-      }
-    ]
-  },
   "ppsh41shot": {
     "category": "master",
     "sounds": [
@@ -107,8 +35,72 @@
       }
     ]
   },
+  "engine_combine": {
+    "category": "master",
+    "subtitle": "subtitles.engine_combine",
+    "sounds": [
+      {
+        "name": "communism_lifeandart:enginecombine",
+        "stream": false
+      }
+    ]
+  },
+  "an_evening_outside_moscow": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "communism_lifeandart:vladimir_troshin_-_podmoskovnyie_viechiera",
+        "stream": true
+      }
+    ]
+  },
+  "internationale_ru": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "communism_lifeandart:sssr_-_intiernatsional",
+        "stream": true
+      }
+    ]
+  },
+  "cccp_anthem": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "communism_lifeandart:gosudarstviennyi_ghimn_sssr",
+        "stream": true
+      }
+    ]
+  },
+  "katyusha": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "communism_lifeandart:katiusha",
+        "stream": true
+      }
+    ]
+  },
+  "we_are_your_firm_successor_the_cyl": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "communism_lifeandart:my_-_viernaia_smiena_tvoia_komsomol",
+        "stream": true
+      }
+    ]
+  },
+  "we_are_tomorrows_soviet_people": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "communism_lifeandart:my_zavtrap_sovietskii_narod",
+        "stream": true
+      }
+    ]
+  },
   "no_communist_party_no_new_china": {
-    "category": "music",
+    "category": "record",
     "sounds": [
       {
         "name": "communism_lifeandart:no_communist_party_no_new_china",
@@ -117,7 +109,7 @@
     ]
   },
   "young_pioneers_day": {
-    "category": "music",
+    "category": "record",
     "sounds": [
       {
         "name": "communism_lifeandart:prazdnik_pionierii",
@@ -126,7 +118,7 @@
     ]
   },
   "happywind": {
-    "category": "music",
+    "category": "record",
     "sounds": [
       {
         "name": "communism_lifeandart:viesielyi_vietier",
@@ -135,7 +127,7 @@
     ]
   },
   "varchavianka": {
-    "category": "music",
+    "category": "record",
     "sounds": [
       {
         "name": "communism_lifeandart:varshavianka",
@@ -144,7 +136,7 @@
     ]
   },
   "our_triumphant_satellite": {
-    "category": "music",
+    "category": "record",
     "sounds": [
       {
         "name": "communism_lifeandart:sputnik_nashikh_pobied",
@@ -152,13 +144,21 @@
       }
     ]
   },
-  "engine_combine": {
-    "category": "master",
-    "subtitle": "subtitles.engine_combine",
+  "internationale_cn": {
+    "category": "record",
     "sounds": [
       {
-        "name": "communism_lifeandart:enginecombine",
-        "stream": false
+        "name": "communism_lifeandart:internationalecn",
+        "stream": true
+      }
+    ]
+  },
+  "troika_galop": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "communism_lifeandart:troika_galop",
+        "stream": true
       }
     ]
   }

@@ -45,10 +45,16 @@ public class CommunismLifeandartModElements {
 	public final List<Supplier<Enchantment>> enchantments = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public CommunismLifeandartModElements() {
-		sounds.put(new ResourceLocation("communism_lifeandart", "internationale_cn"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "internationale_cn")));
-		sounds.put(new ResourceLocation("communism_lifeandart", "troika_galop"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "troika_galop")));
+		sounds.put(new ResourceLocation("communism_lifeandart", "ppsh41shot"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "ppsh41shot")));
+		sounds.put(new ResourceLocation("communism_lifeandart", "mosin_nagant_shot"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "mosin_nagant_shot")));
+		sounds.put(new ResourceLocation("communism_lifeandart", "charginghorn"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "charginghorn")));
+		sounds.put(new ResourceLocation("communism_lifeandart", "ak47shoot"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "ak47shoot")));
+		sounds.put(new ResourceLocation("communism_lifeandart", "engine_combine"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "engine_combine")));
 		sounds.put(new ResourceLocation("communism_lifeandart", "an_evening_outside_moscow"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "an_evening_outside_moscow")));
 		sounds.put(new ResourceLocation("communism_lifeandart", "internationale_ru"),
@@ -61,14 +67,6 @@ public class CommunismLifeandartModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "we_are_your_firm_successor_the_cyl")));
 		sounds.put(new ResourceLocation("communism_lifeandart", "we_are_tomorrows_soviet_people"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "we_are_tomorrows_soviet_people")));
-		sounds.put(new ResourceLocation("communism_lifeandart", "ppsh41shot"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "ppsh41shot")));
-		sounds.put(new ResourceLocation("communism_lifeandart", "mosin_nagant_shot"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "mosin_nagant_shot")));
-		sounds.put(new ResourceLocation("communism_lifeandart", "charginghorn"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "charginghorn")));
-		sounds.put(new ResourceLocation("communism_lifeandart", "ak47shoot"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "ak47shoot")));
 		sounds.put(new ResourceLocation("communism_lifeandart", "no_communist_party_no_new_china"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "no_communist_party_no_new_china")));
 		sounds.put(new ResourceLocation("communism_lifeandart", "young_pioneers_day"),
@@ -79,8 +77,10 @@ public class CommunismLifeandartModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "varchavianka")));
 		sounds.put(new ResourceLocation("communism_lifeandart", "our_triumphant_satellite"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "our_triumphant_satellite")));
-		sounds.put(new ResourceLocation("communism_lifeandart", "engine_combine"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "engine_combine")));
+		sounds.put(new ResourceLocation("communism_lifeandart", "internationale_cn"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "internationale_cn")));
+		sounds.put(new ResourceLocation("communism_lifeandart", "troika_galop"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("communism_lifeandart", "troika_galop")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("communism_lifeandart").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

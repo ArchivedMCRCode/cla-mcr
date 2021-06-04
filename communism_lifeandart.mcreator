@@ -1580,70 +1580,6 @@
   "variable_elements": [],
   "sound_elements": [
     {
-      "name": "internationale_cn",
-      "files": [
-        "internationalecn"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
-      "name": "troika_galop",
-      "files": [
-        "troika_galop"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
-      "name": "an_evening_outside_moscow",
-      "files": [
-        "vladimir_troshin_-_podmoskovnyie_viechiera"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
-      "name": "internationale_ru",
-      "files": [
-        "sssr_-_intiernatsional"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
-      "name": "cccp_anthem",
-      "files": [
-        "gosudarstviennyi_ghimn_sssr"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
-      "name": "katyusha",
-      "files": [
-        "katiusha"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
-      "name": "we_are_your_firm_successor_the_cyl",
-      "files": [
-        "my_-_viernaia_smiena_tvoia_komsomol"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
-      "name": "we_are_tomorrows_soviet_people",
-      "files": [
-        "my_zavtrap_sovietskii_narod"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
       "name": "ppsh41shot",
       "files": [
         "ppsh-41"
@@ -1676,11 +1612,67 @@
       "subtitle": ""
     },
     {
+      "name": "engine_combine",
+      "files": [
+        "enginecombine"
+      ],
+      "category": "master",
+      "subtitle": "Combine:Engine"
+    },
+    {
+      "name": "an_evening_outside_moscow",
+      "files": [
+        "vladimir_troshin_-_podmoskovnyie_viechiera"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "internationale_ru",
+      "files": [
+        "sssr_-_intiernatsional"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "cccp_anthem",
+      "files": [
+        "gosudarstviennyi_ghimn_sssr"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "katyusha",
+      "files": [
+        "katiusha"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "we_are_your_firm_successor_the_cyl",
+      "files": [
+        "my_-_viernaia_smiena_tvoia_komsomol"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "we_are_tomorrows_soviet_people",
+      "files": [
+        "my_zavtrap_sovietskii_narod"
+      ],
+      "category": "record",
+      "subtitle": ""
+    },
+    {
       "name": "no_communist_party_no_new_china",
       "files": [
         "no_communist_party_no_new_china"
       ],
-      "category": "music",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -1688,7 +1680,7 @@
       "files": [
         "prazdnik_pionierii"
       ],
-      "category": "music",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -1696,7 +1688,7 @@
       "files": [
         "viesielyi_vietier"
       ],
-      "category": "music",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -1704,7 +1696,7 @@
       "files": [
         "varshavianka"
       ],
-      "category": "music",
+      "category": "record",
       "subtitle": ""
     },
     {
@@ -1712,16 +1704,24 @@
       "files": [
         "sputnik_nashikh_pobied"
       ],
-      "category": "music",
+      "category": "record",
       "subtitle": ""
     },
     {
-      "name": "engine_combine",
+      "name": "internationale_cn",
       "files": [
-        "enginecombine"
+        "internationalecn"
       ],
-      "category": "master",
-      "subtitle": "Combine:Engine"
+      "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "troika_galop",
+      "files": [
+        "troika_galop"
+      ],
+      "category": "record",
+      "subtitle": ""
     }
   ],
   "language_map": {
@@ -2064,7 +2064,7 @@
   "workspaceSettings": {
     "modid": "communism_lifeandart",
     "modName": "Communism:Life And Art",
-    "version": "1.1.5",
+    "version": "1.1.6",
     "author": "Tapio, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "GNU General Public License version 2 (GPLv2)",
