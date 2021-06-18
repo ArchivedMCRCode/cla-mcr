@@ -1,0 +1,16 @@
+{
+  "group": "communism_lifeandart",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "communism_lifeandart:pp_sh_41"
+    },
+    {
+      "item": "communism_lifeandart:multiuse_bayonet"
+    }
+  ],
+  "result": {
+    "item": "communism_lifeandart:pp_sh_41_bayonet",
+    "count": 1
+  }
+}

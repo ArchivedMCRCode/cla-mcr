@@ -1,0 +1,16 @@
+{
+  "group": "communism_lifeandart",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "communism_lifeandart:mosin_nagant"
+    },
+    {
+      "item": "communism_lifeandart:multiuse_bayonet"
+    }
+  ],
+  "result": {
+    "item": "communism_lifeandart:mosin_nagant_bayonet",
+    "count": 1
+  }
+}
